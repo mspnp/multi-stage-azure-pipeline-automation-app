@@ -1,4 +1,4 @@
-namespace dotnet_angular_azure_multistage_pipeline_starter
+namespace AutomateMultiStagePipelines.StarterApp
 {
     public class WeatherForecast
     {

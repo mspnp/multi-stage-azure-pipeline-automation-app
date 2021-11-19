@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "dotnet_angular_azure_multistage_pipeline_starter": {
+    "automatemultistagepipelines.starterapp": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "https://localhost:7140;http://localhost:5140",

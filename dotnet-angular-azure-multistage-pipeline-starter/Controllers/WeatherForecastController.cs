@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace dotnet_angular_azure_multistage_pipeline_starter.Controllers
+namespace AutomateMultiStagePipelines.StarterApp.Controllers
 {
     [ApiController]
     [Route("[controller]")]

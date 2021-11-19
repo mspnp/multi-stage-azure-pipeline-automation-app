@@ -7,7 +7,7 @@
     <SpaRoot>ClientApp\</SpaRoot>
     <SpaProxyServerUrl>https://localhost:44446</SpaProxyServerUrl>
     <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
-    <RootNamespace>dotnet_angular_azure_multistage_pipeline_starter</RootNamespace>
+    <RootNamespace>AutomateMultiStagePipelines.StarterApp</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
