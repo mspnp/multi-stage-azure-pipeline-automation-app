@@ -1,5 +1,5 @@
 {
-  "name": "dotnet_angular_azure_multistage_pipeline_starter",
+  "name": "automatemultistagepipelines.starterapp",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "start:windows": "ng serve --port 44446 --ssl --ssl-cert %APPDATA%\\ASP.NET\\https\\%npm_package_name%.pem --ssl-key %APPDATA%\\ASP.NET\\https\\%npm_package_name%.key",
     "start:default": "ng serve --port 44446 --ssl --ssl-cert $HOME/.aspnet/https/${npm_package_name}.pem --ssl-key $HOME/.aspnet/https/${npm_package_name}.key",
     "build": "ng build",
-    "build:ssr": "ng run dotnet_angular_azure_multistage_pipeline_starter:server:dev",
+    "build:ssr": "ng run automatemultistagepipelines.starterapp:server:dev",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

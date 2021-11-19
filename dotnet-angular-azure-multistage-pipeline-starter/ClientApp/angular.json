@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "dotnet_angular_azure_multistage_pipeline_starter": {
+    "automatemultistagepipelines.starterapp": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "dotnet_angular_azure_multistage_pipeline_starter:build:production"
+              "browserTarget": "automatemultistagepipelines.starterapp:build:production"
             },
             "development": {
-              "browserTarget": "dotnet_angular_azure_multistage_pipeline_starter:build:development",
+              "browserTarget": "automatemultistagepipelines.starterapp:build:development",
               "proxyConfig": "proxy.conf.js"
             }
           },
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "dotnet_angular_azure_multistage_pipeline_starter:build"
+            "browserTarget": "automatemultistagepipelines.starterapp:build"
           }
         },
         "test": {
@@ -129,5 +129,5 @@
       }
     }
   },
-  "defaultProject": "dotnet_angular_azure_multistage_pipeline_starter"
+  "defaultProject": "automatemultistagepipelines.starterapp"
 }
