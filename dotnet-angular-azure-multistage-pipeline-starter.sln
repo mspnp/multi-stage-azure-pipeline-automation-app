@@ -7,16 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-angular-azure-multis
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "deployment", "deployment\deployment.deployproj", "{AC4590FE-B205-44A2-A192-5D2EC2D227FD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92007B80-1C68-4108-9E46-3AA287EB9901}"
-	ProjectSection(SolutionItems) = preProject
-		automating_multistage_azure_pipelines.png = automating_multistage_azure_pipelines.png
-		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
-		CONTRIBUTING.md = CONTRIBUTING.md
-		LICENSE = LICENSE
-		README.md = README.md
-		SECURITY.md = SECURITY.md
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
