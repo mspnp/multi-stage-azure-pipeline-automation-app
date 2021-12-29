@@ -1,6 +1,6 @@
 # Azure Multi Stage Pipeline Automation 
 
-This repository contains the following building blocks
+This repository explains the deployment scenario of the [reference architecture](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/devops/automate-azure-pipelines) published in azure architecture center. It contains the following building blocks
 
 - `dotnet web project with angular front end` - Example Workload to demonstrate pipeline automation
 - `azure resource group deployment project` - Infrastructure as Code to deploy the example workload
@@ -8,7 +8,7 @@ This repository contains the following building blocks
 
 # Pre-Requisites
 
-- Please follow the steps to deploy the [`azure-logic-app`]((https://github.com/mspnp/multi-stage-azure-pipeline-automation) ) first.
+- Please follow the steps to deploy the [`azure-logic-app`](https://github.com/mspnp/multi-stage-azure-pipeline-automation) first.
 - This will orchestrate the provisioning of multistage pipelines within your `azure-devops` project
 - Create a [service connection](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml) from azure devops to your azure subscription 
 - Change the `parameters file` in the `deployment` project to match your resource naming convention
